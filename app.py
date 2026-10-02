@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "movie_ratings.csv"
+DATA_PATH = Path(__file__).resolve().parent / "movie_ratings.csv"
 
 st.set_page_config(page_title="MovieLens Genre Breakdown", page_icon="🎬", layout="wide")
 st.title("MovieLens: Genre Breakdown")
